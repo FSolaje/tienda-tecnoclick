@@ -8,6 +8,7 @@
 
      /* Paleta de colores Halloween */
      --halloween00: #F4A100;
+     --halloween01: #FFFFFF;
      --halloween10: #E8730C;
      --halloween20: #7A3E9D;
      --halloween30: #3E1F47;
@@ -18,7 +19,9 @@
      --bg-main: var(--halloween00);
      --bg-producto: var(--halloween10);
      --bg-carrito: var(--bg-producto);
+     --bg-stockBajo: var(--halloween30);
      --borderColor-producto: var(--halloween40);
+     --color-stockBajoText: var(--halloween01);
  }
 
 
@@ -67,6 +70,12 @@ header {
     border-radius: 4px;
     padding: 10px;
      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.stock-bajo p:last-of-type{
+    padding: 10px;
+    background: var(--bg-stockBajo);
+    color: var(--color-stockBajoText);
 }
 
 .precio {
