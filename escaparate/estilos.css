@@ -12,6 +12,13 @@
      --halloween20: #7A3E9D;
      --halloween30: #3E1F47;
      --halloween40: #1A1423;
+
+     /* Propiedades Personalizadas */
+     --color-mainText: var(--halloween40);
+     --bg-main: var(--halloween00);
+     --bg-producto: var(--halloween10);
+     --bg-carrito: var(--bg-producto);
+     --borderColor-producto: var(--halloween40);
  }
 
 
