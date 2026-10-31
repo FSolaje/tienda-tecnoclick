@@ -21,7 +21,8 @@
      --bg-main: var(--halloween00);
      --bg-producto: var(--halloween10);
      --bg-carrito: var(--bg-producto);
-     --bg-stockBajo: var(--halloween30);
+     --bg-stockBajo: var(--frio30);
+     --border-stockBajo: var(--halloween30);
      --borderColor-producto: var(--halloween40);
      --bg-hoverProducto: var(--halloween20);
  }
@@ -78,8 +79,9 @@
 
  .stock-bajo p:last-of-type {
      padding: 10px;
-     background: var(--bg-stockBajo);
+     background-color: var(--bg-stockBajo);
      color: var(--color-stockBajoText);
+     border: 3px solid var(--border-stockBajo);
      transition: backgrouend 0.2s ease;
  }
 
